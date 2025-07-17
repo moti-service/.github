@@ -2,7 +2,7 @@
 
 **모두의 여행, 모두를 위한 여행 서비스 - Moti**
 
-Moti는 개인 맞춤형 여행 루트를 추천하고, 사용자의 여행 스타일에 따라 자유롭게 계획을 구성할 수 있는 플랫폼입니다. 본 조직(`organization`)의 모든 서비스는 기술적으로 MSA(Microservice Architecture)를 기반으로 구성되어 있으며, 확장성과 유지보수성을 고려한 구조를 목표로 합니다.
+Moti는 개인 맞춤형 여행 루트를 추천하고, 사용자의 여행 스타일에 따라 자유롭게 계획을 구성할 수 있는 플랫폼입니다. 본 조직(`organization`)의 모든 서비스는 확장성과 유지보수성을 고려한 구조를 목표로 합니다.
 
 ## 🛠 기술 스택 및 아키텍처
 
@@ -15,7 +15,6 @@ Moti는 개인 맞춤형 여행 루트를 추천하고, 사용자의 여행 스�
 
 ### 🔹 Backend
 - **Framework**: Spring Boot
-- **Architecture**: MSA (Microservices Architecture)
 - **Core Stack**:
   - JPA (주요 CRUD 및 ORM 처리)
   - MyBatis (복잡 쿼리 및 튜닝이 필요한 곳에 사용)
@@ -45,7 +44,7 @@ Moti는 개인 맞춤형 여행 루트를 추천하고, 사용자의 여행 스�
 - 여행 루트 추천 시 AI 도입 고려 중
 - 프로젝트 간 통합 또는 공유 컴포넌트 개발을 위한 공통 모듈(repository) 구성
 - 서비스별 Helm Chart 기반 배포 템플릿 구성 가능
-- **Mobile 대응**: React Native or Flutter
+- **Mobile 대응**: React Native
 
 ---
 
