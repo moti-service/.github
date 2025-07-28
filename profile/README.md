@@ -7,11 +7,11 @@ Moti는 개인 맞춤형 여행 루트를 추천하고, 사용자의 여행 스�
 ## 🛠 기술 스택 및 아키텍처
 
 ### 🔹 Frontend
-- **Framework**: React
+- **Framework**: React Native
 - **패키지 구성**: Vite
-- **상태 관리**: Redux Toolkit, React Query (예정 포함 가능)
-- **Router**: React Router
-- **Styling**: Tailwind CSS 또는 styled-components
+- **상태 관리**: Redux Toolkit, React Query
+- **Router**: 
+- **Styling**: styled-components
 
 ### 🔹 Backend
 - **Framework**: Spring Boot
