@@ -19,13 +19,9 @@ Moti는 개인 맞춤형 여행 루트를 추천하고, 사용자의 여행 스�
   - JPA (주요 CRUD 및 ORM 처리)
   - MyBatis (복잡 쿼리 및 튜닝이 필요한 곳에 사용)
   - QueryDSL
-- **Service-to-Service 통신**:
-  - Kafka (비동기 메시징 및 이벤트 기반 아키텍처)
 - **인증 및 사용자 관리**:
   - OAuth2 (Google, Kakao 등 외부 소셜 로그인 연동 포함)
   - Redis (세션 및 인증 토큰 저장소로 사용)
-- **API Gateway**: Spring Cloud Gateway
-- **Configuration Management**: Spring Cloud Config 또는 Git 설정 중심 구성 서버
 
 ### 🔹 인프라 & 배포
 - **Container Orchestration**: AWS EKS (Elastic Kubernetes Service)
@@ -45,7 +41,10 @@ Moti는 개인 맞춤형 여행 루트를 추천하고, 사용자의 여행 스�
 - 프로젝트 간 통합 또는 공유 컴포넌트 개발을 위한 공통 모듈(repository) 구성
 - 서비스별 Helm Chart 기반 배포 템플릿 구성 가능
 - **Mobile 대응**: React Native
-
+- **Service-to-Service 통신**:
+  - Kafka (비동기 메시징 및 이벤트 기반 아키텍처)
+- **API Gateway**: Spring Cloud Gateway
+- **Configuration Management**: Spring Cloud Config 또는 Git 설정 중심 구성 서버
 ---
 
 ## 🔍 향후 보완 또는 논의가 필요한 부분
